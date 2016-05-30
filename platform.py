@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from platformio.managers.platform import BasePlatform
+from platformio.managers.platform import PlatformBase
 from platformio.util import get_systype
 
 
-class Linux_x86_64Platform(BasePlatform):
+class Linux_x86_64Platform(PlatformBase):
 
     def get_packages(self):
-        packages = BasePlatform.get_packages(self)
+        packages = PlatformBase.get_packages(self)
         if (get_systype() == "linux_x86_64" and
                 "toolchain-gcclinux64" in packages):
             del packages['toolchain-gcclinux64']
