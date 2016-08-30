@@ -14,5 +14,5 @@ Linux x86_64 (64-bit) is a Unix-like and mostly POSIX-compliant computer operati
 > platformio platform install linux_x86_64
 
 # install development version
-> platformio platform install https://github.com/platformio/platform-linux_x86_64/archive/develop.zip
+> platformio platform install https://github.com/platformio/platform-linux_x86_64.git
 ```
