@@ -5,9 +5,9 @@
   "homepage": "http://platformio.org/platforms/linux_x86_64",
   "license": "Apache-2.0",
   "keywords": [
-      "dev-platform",
-      "Linux",
-      "x86_64"
+    "dev-platform",
+    "Linux",
+    "x86_64"
   ],
   "engines": {
     "platformio": "<5"
@@ -24,6 +24,7 @@
   "packages": {
     "toolchain-gcclinux64": {
       "type": "toolchain",
+      "owner": "platformio",
       "version": "~1.40801.0"
     }
   }
