@@ -10,17 +10,13 @@
     "x86_64"
   ],
   "engines": {
-    "platformio": "<5"
+    "platformio": "^5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/platformio/platform-linux_x86_64.git"
   },
   "version": "1.1.2",
-  "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json"
-  ],
   "packages": {
     "toolchain-gcclinux64": {
       "type": "toolchain",
