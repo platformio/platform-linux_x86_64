@@ -1,4 +1,4 @@
-# Linux x86_64: development platform for [PlatformIO](http://platformio.org)
+# Linux x86_64: development platform for [PlatformIO](https://platformio.org)
 
 Linux x86_64 (64-bit) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. Using host OS (Mac OS X or Linux 64-bit) you can build native application for Linux x86_64 platform.
 
@@ -7,7 +7,7 @@ Linux x86_64 (64-bit) is a Unix-like and mostly POSIX-compliant computer operati
 
 # Usage
 
-1. [Install PlatformIO](http://platformio.org)
+1. [Install PlatformIO](https://platformio.org)
 2. Create PlatformIO project and configure a platform option in [platformio.ini](https://docs.platformio.org/page/projectconf.html) file:
 
 ## Stable version
