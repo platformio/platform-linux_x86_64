@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/platformio/platform-linux_x86_64.git"
   },
-  "version": "1.1.2",
+  "version": "1.2.0",
   "packages": {
     "toolchain-gcclinux64": {
       "type": "toolchain",
