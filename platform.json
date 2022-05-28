@@ -7,7 +7,7 @@
   "keywords": [
     "dev-platform",
     "Linux",
-    "x86_64"
+    "x86-64"
   ],
   "engines": {
     "platformio": "^6"
