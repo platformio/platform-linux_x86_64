@@ -2,24 +2,25 @@
   "name": "linux_x86_64",
   "title": "Linux x86_64",
   "description": "Linux x86_64 (64-bit) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. Using host OS (Mac OS X or Linux 64-bit) you can build native application for Linux x86_64 platform.",
-  "url": "http://platformio.org/platforms/linux_x86_64",
-  "homepage": "http://platformio.org/platforms/linux_x86_64",
+  "homepage": "https://registry.platformio.org/platforms/platformio/linux_x86_64",
   "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "Linux",
+    "x86_64"
+  ],
   "engines": {
-    "platformio": "^3.0.0"
+    "platformio": "^6"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/platformio/platform-linux_x86_64.git"
   },
-  "version": "1.1.2",
-  "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json"
-  ],
+  "version": "1.2.0",
   "packages": {
     "toolchain-gcclinux64": {
       "type": "toolchain",
+      "owner": "platformio",
       "version": "~1.40801.0"
     }
   }
